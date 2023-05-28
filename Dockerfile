@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Копируем файлы внутрь контейнера
-COPY ClearJSON.py /app/ClearJSON.py
+COPY clearjson.py /app/clearjson.py
 COPY requirements.txt /app/requirements.txt
 COPY YourJSON.json /app/YourJSON.json
 
@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 WORKDIR /app
 
 # Запускаем скрипт ClearJSON.py
-CMD ["python", "ClearJSON.py"]
+CMD ["python", "clearjson.py"]

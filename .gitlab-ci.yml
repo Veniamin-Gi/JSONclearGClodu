@@ -1,11 +1,11 @@
 steps:
   # Шаг сборки образа Docker
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/[PROJECT_ID]/clearjson', '.']
+    args: ['build', '-t', 'gcr.io/[PROJECT_ID]/clearjson:latest', '.']
     
   # Шаг загрузки образа Docker в Container Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/[PROJECT_ID]/clearjson']
+    args: ['push', 'gcr.io/[PROJECT_ID]/clearjson:latest']
     
   # Шаг применения Kubernetes-манифеста для развертывания
   - name: 'gcr.io/cloud-builders/kubectl'

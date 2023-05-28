@@ -1,0 +1,29 @@
+[
+    {
+        "Id": "84.001",
+        "Client_type": 1,
+        "Fcod": "39505010",
+        "Client_name": "\"A.P.E\"\" LA LICEU \"\"L.DEL\"\"\"1",
+        "Address": "",
+        "Phone": "51-63-46",
+        "Price_type_id": ""
+    },
+    {
+        "Id": "4410.001",
+        "Client_type": 1,
+        "Fcod": "1008600019452",
+        "Client_name": ".ILISE-GRUP S.R.L.",
+        "Address": "",
+        "Phone": "22222",
+        "Price_type_id": ""
+    },
+    {
+        "Id": "8489.001",
+        "Client_type": 1,
+        "Fcod": "1014600026167",
+        "Client_name": "\"AKSAV-GROUP\" S.R.L.1",
+        "Address": "",
+        "Phone": "079120788",
+        "Price_type_id": ""
+    }
+]
